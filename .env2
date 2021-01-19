@@ -1,0 +1,7 @@
+VUE_APP_CLIENTID=ez
+VUE_APP_CLIENTSECRET=ez
+VUE_APP_REDIRECTURI=https://spotviz.herokuapp.com/callback
+CLIENTID=ez
+CLIENTSECRET=ez
+REDIRECTURI=https://spotviz.herokuapp.com/callback
+PORT=3000

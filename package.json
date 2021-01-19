@@ -1,0 +1,51 @@
+{
+  "name": "spotviz",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm run build",
+    "start": "node ./api/index.js",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@vue/cli-plugin-babel": "^4.4.6",
+    "@vue/cli-plugin-router": "^4.4.6",
+    "@vue/cli-plugin-vuex": "^4.4.6",
+    "@vue/cli-service": "^4.4.6",
+    "animejs": "^3.2.0",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "connect-history-api-fallback": "^1.6.0",
+    "cookie-parser": "^1.4.5",
+    "core-js": "^3.6.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "epic-spinners": "^1.1.0",
+    "express": "^4.17.1",
+    "express-history-api-fallback": "^2.2.1",
+    "nodemon": "^2.0.4",
+    "sass": "^1.26.10",
+    "sass-loader": "^8.0.2",
+    "serve-static": "^1.14.1",
+    "simplex-noise": "^2.4.0",
+    "spotify-web-api-node": "^4.0.0",
+    "three": "^0.118.3",
+    "vue": "^2.6.11",
+    "vue-axios": "^2.1.5",
+    "vue-axios-cors": "^1.0.1",
+    "vue-cli-plugin-vuetify": "^2.0.6",
+    "vue-router": "^3.2.0",
+    "vue-spotify": "^1.0.2",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify": "^2.2.11",
+    "vuetify-loader": "^1.6.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {},
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
